@@ -1,0 +1,49 @@
+html {
+    height: 10vh;
+  }
+  
+  body {
+    height: 500vh;
+    background: #bbbbbb;
+  }
+  
+  canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+
+  .wrapper {
+    text-align: center;
+  }
+
+  .button22 {
+    width: 250px;
+    height: 125px;
+    position:fixed;
+    bottom: 10%;
+    right:43.5%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+  }
+
+  .button23 {
+    width: 400px;
+    height: 170px;
+    position:fixed;
+    bottom: 40%;
+    right:39.5%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+  }
