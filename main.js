@@ -11,7 +11,6 @@ const preloadImages = () => {
   for (let i = 1; i < frameCount; i++) {
     const img = new Image();
     img.src = currentFrame(i);
-    console.log(img.src);
   }
 };
 
@@ -40,10 +39,8 @@ window.addEventListener('scroll', () => {
 
   var productElement = document.getElementById("button24");
   var productElement2 = document.getElementById("button25");
-  console.log(scrollFraction);
   productElement.style.bottom = (-90 + (scrollFraction*100)).toString(10)+"%";
   productElement2.style.bottom = (-120 + (scrollFraction*160)).toString(10)+"%";
-  console.log((-40 + (scrollFraction*50)).toString(10)+"%");
 
   requestAnimationFrame(() => updateImage(frameIndex + 1))
 });
